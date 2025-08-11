@@ -1,5 +1,5 @@
 """
-Project/File Name: ___________________________
+Project/File Name: CS 111: Module 1 Demo
 Author:           ___________________________
 Date Created:     ___________________________
 Last Modified:    ___________________________
