@@ -1,8 +1,8 @@
 """
 Project/File Name: CS 111: Module 1 Demo
-Author:           ___________________________
-Date Created:     ___________________________
-Last Modified:    ___________________________
+Author:           Zach Wilson
+Date Created:     August 11, 2025
+Last Modified:    August 11, 2025
 
 Purpose:          [Brief description of what this file/project does]
 
@@ -20,9 +20,9 @@ Notes:            [Any additional important information]
 # 1. Hello, World!
 # ----------------
 # Write code below to print "Hello, World!" to the screen.
+print("Hello World!")
 
-
-
+print("Welcome to our CS 111: Python Demo")
 
 
 
@@ -31,7 +31,8 @@ Notes:            [Any additional important information]
 # ------------------
 # Ask the user for their name using input().
 # Then, print a personalized greeting, such as "Hello, <Your Name>!".
-
+name = input("What is your name?")
+print("Hello, " + name)
 
 
 
@@ -45,6 +46,23 @@ Notes:            [Any additional important information]
 # Print the sum, difference, product, and quotient of these numbers.
 
 
+# Arithmetic Demo
+num1 = 100
+num2 = 10
+
+# Sum Demo
+print(num1 + num2)
+
+# Difference Demo
+print(num1 - num2)
+
+# Product Demo
+print(num1 * num2)
+
+# Quotient Demo
+print(num1 / num2)
+
+
 
 
 
@@ -55,6 +73,31 @@ Notes:            [Any additional important information]
 # Add comments to your code above explaining what each section does.
 # (You can add them now if you haven't already!)
 
+# 5. Variables
+# -------------
+
+# Integer
+# assigning the value of 20 to a variable named age
+age = 20
+print(age)
+# Printing the variable type for the age variable
+print(type(age))
+age_type = type(age)
+print(age_type)
+
+# Float
+height = 5.9
+print(type(height))
+
+# String
+name = "Zach Wilson"
+print(type(name))
+
+# Boolean
+is_student = True
+is_teacher = False
+print(is_student)
+print(type(is_teacher))
 
 # ======================================================================================================================
 # ======================================================================================================================
